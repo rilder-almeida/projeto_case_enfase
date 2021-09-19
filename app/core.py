@@ -1,5 +1,8 @@
 """Sample function"""
 
+# Função remanecente do template do projeto original para não gerar erro no
+# pytest de ausẽncia de testes durante o pre-commit
+
 
 def sample_sum_func(num_a: int, num_b: int) -> int:
     """

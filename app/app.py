@@ -9,11 +9,16 @@ import streamlit as st
 # pylint: disable=import-error
 import introducao
 import questao_problema
+import analise_prazos_x_atrasos
 
 # pylint: enable=import-error
 
 # Sidebar
-PAGES = {"Questão Problema": questao_problema.case, "Introdução": introducao.intro}
+PAGES = {
+    "Questão Problema": questao_problema.case,
+    "Introdução": introducao.intro,
+    "Análise Prazos e Atrasos": analise_prazos_x_atrasos.prazos_atrasos,
+}
 
 st.sidebar.title("Índice")
 selection = st.sidebar.radio("", list(PAGES.keys()))
