@@ -1,3 +1,5 @@
+# FIXME Testes não implementados devido ao tempo reduzido para execução do projeto
+
 from .context import app
 from app import sample_sum_func
 from pytest import mark
