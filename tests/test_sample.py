@@ -1,5 +1,5 @@
-from .context import sample
-from sample import sample_sum_func
+from .context import app
+from app import sample_sum_func
 from pytest import mark
 
 
@@ -8,4 +8,3 @@ def test_sample_sum_func(num_a, num_b, expected):
     """testing sum_func"""
     result = sample_sum_func(num_a, num_b)
     assert result == expected
-    
