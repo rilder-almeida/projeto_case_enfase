@@ -1,9 +1,9 @@
 import streamlit as st
 
 
-def prazos_atrasos():
-    "Função página análise prazos e atrasos"
-    st.title("Análise dos prazos e atrasos")
+def tempos_operacao():
+    "Função página análise tempos de operação"
+    st.title("Análise dos tempos de operação")
 
     st.write(
         """
@@ -14,11 +14,12 @@ def prazos_atrasos():
     (capital x capital, capital x interior, interior x capital, interior x interior)
 
 
-    No prazo x atrasados
-    - envio do pedido
-    - entrega do pedido
-    - ambos
-    - relação entre o atraso no envio do pedido e o atraso na entrega do pedido
+    Tempo médio
+    - da aprovação ao envio
+    - do atraso no envio
+    - do envio à entrega
+    - do atraso no entrega
+    - da aprovação à entrega
     """
     )
 

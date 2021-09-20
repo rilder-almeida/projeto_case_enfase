@@ -1,9 +1,8 @@
-"""Sample function"""
-
-# Função remanecente do template do projeto original para não gerar erro no
-# pytest de ausẽncia de testes durante o pre-commit
+"""Módulo de funções dos widgets e gráficos"""
 
 
+# Função remanecente do template de projeto mantida para não gerar erro por ausência de
+# algum teste no pytest durante o pre-commit
 def sample_sum_func(num_a: int, num_b: int) -> int:
     """
     :rtype: object

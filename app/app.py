@@ -1,5 +1,5 @@
 """
-Aplicação front-end usando Streamlit para gerar a página
+Módulo da aplicação usando Streamlit para gerar a estrutura front-end
 """
 
 import streamlit as st
@@ -10,6 +10,10 @@ import streamlit as st
 import introducao
 import questao_problema
 import analise_prazos_x_atrasos
+import analise_tempo_operacao
+import analise_valores
+import solucoes
+import consideracoes_finais
 
 # pylint: enable=import-error
 
@@ -17,7 +21,11 @@ import analise_prazos_x_atrasos
 PAGES = {
     "Questão Problema": questao_problema.case,
     "Introdução": introducao.intro,
-    "Análise Prazos e Atrasos": analise_prazos_x_atrasos.prazos_atrasos,
+    "Análise dos Prazos e Atrasos": analise_prazos_x_atrasos.prazos_atrasos,
+    "Análise dos Tempos de Operação": analise_tempo_operacao.tempos_operacao,
+    "Análise dos Valores dos Fretes": analise_valores.valores,
+    "Soluções Propostas": solucoes.solucoes,
+    "Considerações Finais": consideracoes_finais.consideracoes_finais,
 }
 
 st.sidebar.title("Índice")
