@@ -15,7 +15,7 @@ from core import get_dataset
 
 def geografica():
     "Função página análise geografica"
-    st.title("Análise dos geografica")
+    st.title("Análise Geografica")
 
     df_geo = get_dataset(
         [
