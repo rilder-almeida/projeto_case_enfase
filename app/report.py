@@ -11,7 +11,7 @@ from core import get_dataset
 
 def report():
     "Função página Relatório - Pandas Profiling"
-    st.title("Relatório -Pandas Profiling")
+    st.title("Relatório - Pandas Profiling")
     st.markdown("Para algumas análises estatíticas foi utilizado o Pandas Profiling")
     st.markdown("Siga os passos:")
     st.code(

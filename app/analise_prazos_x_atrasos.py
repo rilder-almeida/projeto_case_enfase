@@ -11,7 +11,7 @@ from core import get_dataset
 
 def prazos_atrasos():
     "Função página análise prazos e atrasos"
-    st.title("Análise dos Atrasos x Vendas")
+    st.title("Análise dos Atrasos dos Pedidos")
 
     df_prazos_atrasos = get_dataset(
         [

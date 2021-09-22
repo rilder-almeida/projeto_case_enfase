@@ -15,7 +15,7 @@ from core import get_dataset
 
 def geografica():
     "Função página análise geografica"
-    st.title("Análise Geográfica x Vendas e Compras")
+    st.title("Análise Geográfica as Vendas e Compras")
 
     df_geo = get_dataset(
         [
@@ -186,5 +186,5 @@ def geografica():
         columns=["Quantidade de vendas"],
     )
     with st.expander("Ver gráfico"):
-
+        chart_df.index = ["Interior", "Capital"]
         st.bar_chart(chart_df)

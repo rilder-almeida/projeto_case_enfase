@@ -18,8 +18,8 @@ from consideracoes_finais import consideracoes_finais
 PAGES = {
     "Introdução": intro,
     "Questão Problema": case,
-    "Análise Geográfica x Vendas e Compras": geografica,
-    "Análise dos Atrasos x Vendas": prazos_atrasos,
+    "Análise Geográfica das Vendas e Compras": geografica,
+    "Análise dos Atrasos dos Pedidos": prazos_atrasos,
     "Pandas Profiling": report,
     "Relatório Final e Soluções Propostas": solucoes,
     "Considerações": consideracoes_finais,

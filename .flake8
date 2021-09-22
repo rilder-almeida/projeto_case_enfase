@@ -1,5 +1,5 @@
 [flake8]
-ignore = E722, W503, F401, W293, E712
+ignore = E722, W503, F401, W293, E712, W291
 max-line-length = 300
 per-file-ignores =
     context.py: E402

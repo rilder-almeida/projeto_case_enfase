@@ -39,7 +39,6 @@ def intro():
         #### [Fonte](https://web.archive.org/web/20170114185412/https://olist.com/sobre-o-olist/)
         </div>
         <br>
-        <br>
         """,
         unsafe_allow_html=True,
     )
