@@ -63,6 +63,9 @@ def case():
         - Inferência de resultados baseando-se nos dados e conhecimentos complementares;
         - Análise dos resultados, levantamento de soluções e propostas;
         - Deployment da aplicação, repositório e documentações.
+
+        Veja o repositório mara mais detalhes:
+        #### [https://github.com/rilder-almeida/projeto_case_enfase](https://github.com/rilder-almeida/projeto_case_enfase)
         
         </div>
         """,
