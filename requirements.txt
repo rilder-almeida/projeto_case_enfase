@@ -16,6 +16,7 @@ cffi==1.14.6
 cfgv==3.3.1
 charset-normalizer==2.0.6
 click==7.1.2
+cycler==0.10.0
 debugpy==1.4.3
 decorator==5.1.0
 defusedxml==0.7.1
@@ -40,8 +41,10 @@ jupyter-client==7.0.3
 jupyter-core==4.8.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.2
+kiwisolver==1.3.2
 lazy-object-proxy==1.6.0
 MarkupSafe==2.0.1
+matplotlib==3.4.3
 matplotlib-inline==0.1.3
 mccabe==0.6.1
 mistune==0.8.4
@@ -68,6 +71,7 @@ plotly==5.3.1
 plotly-express==0.4.1
 pluggy==1.0.0
 pre-commit==2.15.0
+-e git+https://github.com/rilder-almeida/projeto_case_enfase.git@4e8d22be9121028e6b043b069f485ac509130016#egg=projeto_case_enfase
 prometheus-client==0.11.0
 prompt-toolkit==3.0.20
 protobuf==3.18.0
