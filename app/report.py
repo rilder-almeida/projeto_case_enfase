@@ -13,4 +13,4 @@ def report():
     "Função página Relatório - Pandas Profiling"
     st.title("Relatório -Pandas Profiling")
     st.markdown("Para algumas análises estatíticas foi utilisizado o Pandas Profiling")
-    st.markdown("Acesse [aqui](../Analysis.html)")
+    st.markdown("Baixe [aqui]('.../projeto_case_enfase/Analysis.html')")
