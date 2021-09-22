@@ -7,7 +7,7 @@ Módulo da aplicação usando Streamlit para gerar a estrutura front-end
 import streamlit as st
 from introducao import intro
 from questao_problema import case
-from analise_geral import geral
+from analise_geografica import geografica
 from analise_prazos_x_atrasos import prazos_atrasos
 from analise_tempo_operacao import tempos_operacao
 from analise_valores import valores
@@ -19,7 +19,7 @@ from consideracoes_finais import consideracoes_finais
 PAGES = {
     "Questão Problema": case,
     "Introdução": intro,
-    "Análise Geral": geral,
+    "Análise geográfica": geografica,
     "Análise dos Prazos e Atrasos": prazos_atrasos,
     "Análise dos Tempos de Operação": tempos_operacao,
     "Análise dos Valores dos Fretes": valores,

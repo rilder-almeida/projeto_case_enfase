@@ -71,7 +71,7 @@ plotly==5.3.1
 plotly-express==0.4.1
 pluggy==1.0.0
 pre-commit==2.15.0
--e git+https://github.com/rilder-almeida/projeto_case_enfase.git@4e8d22be9121028e6b043b069f485ac509130016#egg=projeto_case_enfase
+-e git+https://github.com/rilder-almeida/projeto_case_enfase.git@bac58c50d5f0f43ae99293f7820bf0fec210ab8b#egg=projeto_case_enfase
 prometheus-client==0.11.0
 prompt-toolkit==3.0.20
 protobuf==3.18.0
