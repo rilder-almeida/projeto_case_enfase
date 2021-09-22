@@ -18,11 +18,11 @@ from consideracoes_finais import consideracoes_finais
 PAGES = {
     "Introdução": intro,
     "Questão Problema": case,
-    "Análise geográfica": geografica,
-    "Análise dos Atrasos": prazos_atrasos,
-    "Relatório - Pandas Profiling": report,
-    "Soluções Propostas": solucoes,
-    "Considerações Finais": consideracoes_finais,
+    "Análise Geográfica x Vendas e Compras": geografica,
+    "Análise dos Atrasos x Vendas": prazos_atrasos,
+    "Pandas Profiling": report,
+    "Relatório Final e Soluções Propostas": solucoes,
+    "Considerações": consideracoes_finais,
 }
 
 st.sidebar.title("Índice")

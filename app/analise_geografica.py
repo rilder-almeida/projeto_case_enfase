@@ -15,7 +15,7 @@ from core import get_dataset
 
 def geografica():
     "Função página análise geografica"
-    st.title("Análise Geografica")
+    st.title("Análise Geográfica x Vendas e Compras")
 
     df_geo = get_dataset(
         [
@@ -30,15 +30,15 @@ def geografica():
         ]
     )
 
-    st.markdown("## Onde estão os clientes?")
+    st.markdown("## Onde estão as compras?")
     st.markdown(
         """
         <div style="text-align: justify">
 
-        #### Quantidade de clientes por estado
+        #### Quantidade de pedidos  de compra feitos por estado
 
-        - O clientes se concentram basicamente nos estados: SP (42.0%), RJ (12.8%) e MG (11.8%)
-        correspondendo a 66.6% do total de consumidores.
+        - Os pedidos de compras se concentram basicamente nos estados: SP (42.0%), RJ (12.8%) e MG (11.8%)
+        correspondendo a 66.6% do total dos pedidos comprados.
         </div>
         <br>
         """,
@@ -50,7 +50,7 @@ def geografica():
     chart_df = pd.DataFrame(
         dct["quantidade de pedidos"],
         index=dct["estados"],
-        columns=["Quantidade de clientes"],
+        columns=["Quantidade de pedidos"],
     )
     with st.expander("Ver gráfico"):
         st.bar_chart(chart_df)
@@ -60,7 +60,7 @@ def geografica():
         <div style="text-align: justify">
         <br>
 
-        #### Quantidade de clientes por região
+        #### Quantidade de pedidos de compra por região
 
         - Estando presente em todas as regiões: Sudeste	(68.6%), Sul (14.3%),
         Nordeste (9.4%), Centro (5.8%), Norte (1.9%)
@@ -75,7 +75,7 @@ def geografica():
     chart_df = pd.DataFrame(
         dct["quantidade de pedidos"],
         index=dct["regioes"],
-        columns=["Quantidade de clientes"],
+        columns=["Quantidade de pedidos"],
     )
     with st.expander("Ver gráfico"):
         st.bar_chart(chart_df)
@@ -85,9 +85,9 @@ def geografica():
         <div style="text-align: justify">
         <br>
 
-        #### Quantidade de clientes em capitais
+        #### Quantidade de pedidos de compra em capitais
 
-        - Os clientes se encontram majoritariamente no interior (64,1%)
+        - Os pedidos de compra se encontram majoritariamente no interior (64,1%)
         </div>
         <br>
         """,
@@ -102,7 +102,7 @@ def geografica():
     chart_df = pd.DataFrame(
         dct["quantidade de pedidos"],
         index=dct["cliente_capital"],
-        columns=["Quantidade de clientes"],
+        columns=["Quantidade de pedidos"],
     )
     with st.expander("Ver gráfico"):
         chart_df.index = ["Interior", "Capital"]
@@ -110,7 +110,7 @@ def geografica():
 
     st.markdown(
         """<br><br>
-## Onde estão os vendedores?""",
+## Onde estão as vendas?""",
         unsafe_allow_html=True,
     )
 
@@ -118,9 +118,9 @@ def geografica():
         """
         <div style="text-align: justify">
 
-        #### Quantidade de vendedores por estado
+        #### Quantidade de vendas feitos por estado
 
-        - O vendedores do Olist se concentram basicamente nos estados: SP (70.9%), MG (7.9%), PR (7.7%)
+        - As vendas do Olist se concentram basicamente nos estados: SP (70.9%), MG (7.9%), PR (7.7%)
         correspondendo a 86.5% do total.
         </div>
         <br>
@@ -132,7 +132,7 @@ def geografica():
     chart_df = pd.DataFrame(
         dct["quantidade de pedidos"],
         index=dct["estados"],
-        columns=["Quantidade de vendedores"],
+        columns=["Quantidade de  vendas"],
     )
     with st.expander("Ver gráfico"):
         st.bar_chart(chart_df)
@@ -142,9 +142,9 @@ def geografica():
         <div style="text-align: justify">
         <br>
 
-        #### Quantidade de vendedores por região
+        #### Quantidade de vendas feitos por região
 
-        - As regiões sul e sudeste são responsáveis por 96.9% do total de vendedores.
+        - As regiões sul e sudeste são responsáveis por 96.9% do total de vendas.
         </div>
         <br>
         """,
@@ -156,7 +156,7 @@ def geografica():
     chart_df = pd.DataFrame(
         dct["quantidade de pedidos"],
         index=dct["regioes"],
-        columns=["Quantidade de vendedores"],
+        columns=["Quantidade de  vendas"],
     )
     with st.expander("Ver gráfico"):
         st.bar_chart(chart_df)
@@ -166,9 +166,9 @@ def geografica():
         <div style="text-align: justify">
         <br>
 
-        #### Quantidade de vendedores na capital
+        #### Quantidade de vendas feitos na capital
 
-        - Os vendedores se encontram majoritariamente no interior (65,6%)
+        - As vendas se encontram majoritariamente no interior (65,6%)
         </div>
         <br>
         """,
@@ -183,7 +183,7 @@ def geografica():
     chart_df = pd.DataFrame(
         dct["quantidade de pedidos"],
         index=dct["vendedor_capital"],
-        columns=["Quantidade de vendedores"],
+        columns=["Quantidade de vendas"],
     )
     with st.expander("Ver gráfico"):
 
