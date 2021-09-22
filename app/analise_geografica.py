@@ -105,6 +105,7 @@ def geografica():
         columns=["Quantidade de clientes"],
     )
     with st.expander("Ver gráfico"):
+        chart_df.index = ["Interior", "Capital"]
         st.bar_chart(chart_df)
 
     st.markdown(
@@ -185,4 +186,5 @@ def geografica():
         columns=["Quantidade de vendedores"],
     )
     with st.expander("Ver gráfico"):
+
         st.bar_chart(chart_df)
