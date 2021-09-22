@@ -12,5 +12,14 @@ from core import get_dataset
 def report():
     "Função página Relatório - Pandas Profiling"
     st.title("Relatório -Pandas Profiling")
-    st.markdown("Para algumas análises estatíticas foi utilisizado o Pandas Profiling")
-    st.markdown("Baixe [aqui]('.../projeto_case_enfase/Analysis.html')")
+    st.markdown("Para algumas análises estatíticas foi utilizado o Pandas Profiling")
+    st.markdown("Siga os passos:")
+    st.code(
+        """
+git clone https://github.com/rilder-almeida/projeto_case_enfase && cd projeto_case_enfase
+firefox Analysis.html
+
+ou
+chrome Analysis.html
+    """
+    )
