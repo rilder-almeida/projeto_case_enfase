@@ -27,7 +27,9 @@ No terminal
 > jupyter notebook
 
 Clique em upload
+
 Acesse a pasta notebooks e faça o upload dos arquivos para o ambiente virtual do jupyter
+
 E abra o arquivo que desejar.
 
 ## Etapas envolvidas na case
