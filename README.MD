@@ -1,4 +1,4 @@
-# Case Data Engineer Curso ênfase
+# Case Data Engineer ÊnfaseLabs
 
 Proposta de resolução de uma case envolvendo uma análise das vendas da empresa Olist, baseando-se nos dados
 presentes no dataset, propondo um plano de ação para melhorar os resultados da empresa.
