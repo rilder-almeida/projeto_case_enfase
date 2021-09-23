@@ -22,6 +22,7 @@ Caso o link não apareça ou abra automaticamente basta entrar em http://localho
 
 ## Acessando os Notebooks do Jupyter
 [Instalando o jupyter](https://jupyter.org/install)
+
 No terminal
 > jupyter notebook
 
