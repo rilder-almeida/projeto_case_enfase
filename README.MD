@@ -35,14 +35,14 @@ E abra o arquivo que desejar.
 ## Etapas envolvidas na case
 Para melhor execução, o projeto foi dividido da seguinte maneira:
 
-[x] Entendimento do negócio, mercado de atuação, público alvo, serviços e produtos ofertados;
-[x] Análise dos datasets, colunas, relações e tipagem;
-[x] Realização da extração, limpeza, conversão, validação e tratamento dos dados;
-[x] Produção do dataset de logística, unificado e condizente com as demandas do projeto;
-[x] Planejamento das questões abordadas durante a análise para obtenção dos resultados;
-[x] Preparo da estrutura da aplicação de visualização do projeto;
-[x] Elaboração dos gráficos e tabelas relacionadas às necessidades da análise;
-[x] Inferência de resultados baseando-se nos dados e conhecimentos complementares;
-[x] Análise dos resultados, levantamento de soluções e propostas;
-[x] Repositório e documentações;
-[ ] Deployment da aplicação no streamlit.io.
+- Entendimento do negócio, mercado de atuação, público alvo, serviços e produtos ofertados;
+- Análise dos datasets, colunas, relações e tipagem;
+- Realização da extração, limpeza, conversão, validação e tratamento dos dados;
+- Produção do dataset de logística, unificado e condizente com as demandas do projeto;
+- Planejamento das questões abordadas durante a análise para obtenção dos resultados;
+- Preparo da estrutura da aplicação de visualização do projeto;
+- Elaboração dos gráficos e tabelas relacionadas às necessidades da análise;
+- Inferência de resultados baseando-se nos dados e conhecimentos complementares;
+- Análise dos resultados, levantamento de soluções e propostas;
+- Repositório e documentações;
+- Deployment da aplicação no streamlit.io.
