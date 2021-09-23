@@ -3,6 +3,8 @@
 Proposta de resolução de uma case envolvendo uma análise das vendas da empresa Olist, baseando-se nos dados
 presentes no dataset, propondo um plano de ação para melhorar os resultados da empresa.
 
+## Acesso
+[https://share.streamlit.io/rilder-almeida/projeto_case_enfase/app/app.py](https://share.streamlit.io/rilder-almeida/projeto_case_enfase/app/app.py)
 
 ## Instalação
 Clone o repositório
