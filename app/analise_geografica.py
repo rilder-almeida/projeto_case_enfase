@@ -37,7 +37,7 @@ def geografica():
 
         #### Quantidade de pedidos  de compra feitos por estado
 
-        - Os pedidos de compras se concentram basicamente nos estados: SP (42.0%), RJ (12.8%) e MG (11.8%)
+        - Os pedidos de compras se concentram basicamente nos estados: SP (42.0%), RJ (12.8%) e MG (11.8%),
         correspondendo a 66.6% do total dos pedidos comprados.
         </div>
         <br>

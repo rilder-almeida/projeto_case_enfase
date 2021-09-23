@@ -83,7 +83,7 @@ def prazos_atrasos():
 
         #### Atraso no envio por região do Vendedor
 
-        - Observa-se que a frenquencia de atrasos no envio é proporcional ao quantidade de pedidos quando analisamos por região.
+        - Observa-se que a frenquência de atrasos no envio é proporcional à quantidade de pedidos quando analisamos por região.
         </div>
         <br>
         """,
@@ -118,7 +118,7 @@ def prazos_atrasos():
 
         #### Atraso no envio por motivo do Vendedor estar na capital/interior
 
-        - Percebe-se uma maior frequêcia atraso no envio do produto quando o vendedor se encontra no interior.
+        - Percebe-se uma maior frequência de atrasos no envio do produto quando o vendedor se encontra no interior.
         </div>
         <br>
         """,
@@ -154,7 +154,7 @@ def prazos_atrasos():
 
         #### Atraso no envio por estado do Cliente
 
-        - É interessante perceber menor frequência de atrasos no envio qdo os cliente são de MG e RJ,
+        - É interessante perceber menor frequência de atrasos no envio qdo os clientes são de MG e RJ,
         em contrapartida, SP é o destino onde se encontra as maiores frequências de atraso no envio.
         </div>
         <br>
@@ -199,7 +199,7 @@ def prazos_atrasos():
 
         #### Atraso no envio por região do Cliente
 
-        - Observa-se que o Sudeste é a unica região que, proporcionalmente, há atrasos no envio.
+        - Observa-se que o Sudeste é a única região que, proporcionalmente, há atrasos no envio.
         </div>
         <br>
         """,
@@ -234,7 +234,7 @@ def prazos_atrasos():
 
         #### Atraso no envio por motivo do Cliente estar na capital/interior
 
-        - Clientes que resitem em capitais têm maior frequencia no atraso do envio por parte do vendedores.
+        - Clientes que residem em capitais têm maior frequência no atraso do envio por parte dos vendedores.
         </div>
         <br>
         """,
@@ -321,7 +321,7 @@ def prazos_atrasos():
 
         #### Atraso na entrega por região do Vendedor
 
-        - Observa-se que o Sudeste, a região que mais se originam as entregas, também apresentam o maior frequência de atrasos.
+        - Observa-se que o Sudeste, a região que mais se origina as entregas, também apresenta o maior frequência de atrasos.
         </div>
         <br>
         """,
@@ -356,7 +356,7 @@ def prazos_atrasos():
 
         #### Atraso na entrega por motivo do Vendedor estar na capital/interior
 
-        - A frequêcia atraso na entrega do produto não é intererido pelo fato do vendedor se encontrar em capitais ou interior.
+        - A frequência no atraso na entrega do produto não é interferida pelo fato do vendedor se encontrar em capitais ou interior.
         </div>
         <br>
         """,
@@ -394,7 +394,7 @@ def prazos_atrasos():
         #### Atraso na entrega por estado do Cliente
 
         - É interessante perceber maior frequência de atrasos na entrega quando o cliente se encontra no RJ, BA, ES e AL.
-        Já clientes dos estados SP e MG possuem taxas de cumprimentos de prazos exemplares.
+        Já clientes dos estados SP e MG possuem taxas de cumprimento de prazos exemplares.
         </div>
         <br>
         """,

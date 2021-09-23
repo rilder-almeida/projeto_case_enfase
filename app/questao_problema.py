@@ -37,9 +37,9 @@ def case():
         ## Objetivo
         Este projeto tem como objetivo a análise das vendas da Olist no período entre
         2016 e 2018. O estudo destas vendas foi realizado sob a ótica das operações logísticas da empresa,
-        desde o ato da compra até a entrega, em séries geográficas, quantitativas e relativas. Tendo como intúito
+        desde o ato da compra até a entrega, em séries geográficas, quantitativas e relativas. Tendo como intuito
         identificar possíveis falhas ou deficiências nos processos, de forma a propor
-        soluções eficientes que impactem no positivamente na resultados do negócio.
+        soluções eficientes que impactem positivamente na resultados do negócio.
 
         </div>
         <br>
@@ -64,7 +64,7 @@ def case():
         - Análise dos resultados, levantamento de soluções e propostas;
         - Deployment da aplicação, repositório e documentações.
 
-        Veja o repositório mara mais detalhes:
+        Veja o repositório para mais detalhes:
         #### [https://github.com/rilder-almeida/projeto_case_enfase](https://github.com/rilder-almeida/projeto_case_enfase)
         
         </div>
